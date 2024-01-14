@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+     background: red ;
+     font-size: 64px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+.clearfix{
+    clear: both;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: lightskyblue;
+    padding: 20px 0;
+}
+nav{
+    display: table;
+    height: 100px;
+}
+nav ul{
+    /* float: left; */
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 0 0 50px;
+} 
+nav ul li{
+    float: left;
+    padding: 20px;
+}
+.content, footer{
+    width: 1000px;
+    margin: 0 auto;
+}
+#main {
+    background: #ebebeb;
+    padding: 40px 0;
+}
+#main .articles {
+    float: left;
+    width: 670px;
+}
+
+#main article .inner {
+    padding: 20px 12px;
+}
+#main article h2 {
+    margin: 0 0 20px;
+}
+#main article  {
+    margin-bottom: 20px;
+    background: white;
+}
+
+#main .articles .exerpt {
+    float: right;
+    width: 365px;
+}
+#main .articles .bottom{
+    border-top: 1px solid #999;
+    color: #999;
+    padding: 20px 0;
+    float: left;
+    width: 100%;
+}
+#main .articles .bottom > div{
+    float: left;
+    padding: 0 20px;
+}
+
+#main .articles .bottom .comments {
+    float: right;
+}
+
+#main .sidebar {
+    float: right;
+    width: 260px;
+    min-height: 100px;
+    background: white;
+    padding: 20px;
+}
+
+#main .sidebar form {
+    position: relative;
+}
+
+#main .sidebar input{
+    padding: 10px;
+    padding-right: 30px;
+    border: 1px solid #ddd;
+    width: 220px;
+}
+#main .sidebar input[type=submit]{
+    background: url(../img/search.png);
+    width: 25px;
+    height: 25px;
+    text-indent: -9999px;
+    border: none;
+    padding: 0;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+#main .sidebar a {
+    color: #158ebf;
+}
+
+#main .sidebar ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+#main .sidebar ul li:last-child {
+    border-bottom: none;
+}
+
+#main .sidebar h3 {
+    margin: 40px 0 20px;
+}
+
+footer{
+    padding: 20px 0;
+}
+footer .copyright{
+    float: left;
+}
+.footer .contact {
+    float: right;
+}
+footer a {
+    color: #158ebf;
+}
+
+/* single post*/
+#main .single-post{
+    float: left;
+    width: 650px;
+    padding: 20px;
+    background: white;
+}
+/* #main .single-post article{
+    padding: 20px;
+} */
+#main h1{
+    margin: 0 0 20px;
+    font-size: 32px;
+}
+.comments{
+    margin-top: 50px;
+}
+.comments .single-comment {
+    border-bottom: 1px solid #eeee;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+.comments .avatar{
+    float: left;
+}
+.comments .avatar img {
+    width: 60px;
+    margin-right: 20px;
+
+}
+/* .comments .name-and-text{ */
+    /* float: left; */
+    /* width: 525px; */
+    /* margin-bottom: 20px; */
+/* } */
+
+p {
+    margin: 0 0 12px;
+}
+h3.add-comment {
+    margin-top: 50px;
+}
+.comments label {
+    display: inline-block;
+    width: 100px;
+}
+.comments input{
+    width: 300px;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dedede;
+}
+.comments .input-row {
+    margin: 5px 0;
+}
+.comments textarea {
+    width: 100%;
+    height: 370px;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.comments input[type=submit]{
+    font-size: 20px;
+    color: #5c5c5c;
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    cursor: pointer;
+}
